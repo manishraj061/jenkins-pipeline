@@ -8,11 +8,11 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-           stage('Test'){
-              steps {
-                  sh 'echo "Testing phase 3"'
-             }
-           } 
+        stage('Test'){
+            steps {
+                sh 'echo "Testing phase 3"'
+                  }
+                } 
             }
         }
     }
